@@ -1,0 +1,15 @@
+h1 {
+    color : blue;
+    background-color: azure;
+    text-align: center;
+    text-transform: uppercase;
+}
+.areaBonita {
+    border: 1px;
+    border-radius: 10%;
+    background-color: #b2b6ca;
+    color: #3b3c41;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
