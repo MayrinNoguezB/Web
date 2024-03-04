@@ -1,15 +1,21 @@
 h1 {
-    color : blue;
-    background-color: azure;
+    color : rgba(15, 15, 207, 0.705);
+    background-color: rgba(24, 22, 22, 0.253);
     text-align: center;
     text-transform: uppercase;
 }
 .areaBonita {
     border: 1px;
-    border-radius: 10%;
     background-color: #b2b6ca;
     color: #3b3c41;
-    height: 50px;
-    width: 300px;
+    height: 30px;
+    width: 600px;
+    font-size: 20px;
+}
+.cuerpoFormulario {
+    background-color: rgb(204, 221, 221);
+    color: #3b3c41;
+    height: 650px;
+    width: 600px;
     font-size: 20px;
 }
