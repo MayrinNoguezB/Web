@@ -6,6 +6,7 @@ h1 {
 }
 .areaBonita {
     border: 1px;
+    border-radius: 10px;
     background-color: #b2b6ca;
     color: #3b3c41;
     height: 30px;
