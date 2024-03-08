@@ -5,8 +5,8 @@
          .tarjeta .cabecera{
             display: flex;
             padding: 10px;
-            border: rgb(99, 103, 112);
-            border-radius: 20% 20% 0% 0%;
+            border: rgb(0, 0, 0) solid;
+            border-radius: 10% 10% 0% 0%;
          }
          .tarjeta .cabecera img{
             width: 150px;
@@ -18,24 +18,25 @@
             flex: 1;
             text-align: center;
             padding-top: 40px;
-            font-size: 24px;
+            font-size: 50px;
          }
          .tarjeta .cuerpo{
             text-align: justify;
             font-size: 18px;
             padding: 10px;
-            border: rgb(49, 53, 59);
+            border: rgb(0, 0, 0) solid;
+            
          }
          .tarjeta .pie{
-            border: rgb(60, 62, 68);
+            border: rgb(0, 0, 0) solid;
             border-radius: 0% 0% 10% 10%;
          }
          .tarjeta .pie button{
-            width: 50%;
+            width: 100%;
             padding-top: 10px;
             padding-bottom: 10px;
             font-size: 20px;
-            background-color: rgb(226, 36, 179);
+            background-color: rgb(0, 0, 0);
             color: aliceblue;
             margin-top: 30px;
             margin-bottom: 30px;
@@ -49,12 +50,12 @@
    background-color: blue;
    color: white;
 }         
-.colorfondovioleta{
-   background-color: blueviolet;
+.colorfondomediodia{
+   background-color: rgb(0, 0, 0);
    color: white;
 }
-.colorfondoazulclaro{
-   background-color: aqua;
+.colorfondoatardecer{
+   background-color: rgb(255, 81, 0);
    color: black;
 }
 .alinearcentro{
