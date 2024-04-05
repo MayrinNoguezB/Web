@@ -9,14 +9,18 @@
 </head>
 <body>
     <div class="Contenedor">
-        <h2>Responsive Multi-Column Form</h2>
+        <div class="title">
+            <h2>Responsive Multi-Column Form</h2>
+        </div>
         <form>
             <div class="form-group">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="" placeholder="Nombre">
                 <label for="phoneNuber">Phone Number</label>
-                <input type="number" name="" id="Number" placeholder="Number">
                 <label for="talent">Type of talent</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="firstName" name="" placeholder="Nombre">
+                <input type="number" name="" id="Number" placeholder="Number">
                 <select name="talent[]" id="talent">
                     <option value="musical">Musical</option>
                     <option value="deportivo">Sports</option>
@@ -27,13 +31,54 @@
             </div>
             <div class="form-group">
                 <label for="lastName">Last Name</label>
-                <input type="text" name="" id="lastName" placeholder="lastName">
                 <label for="affiliations">Affiliations</label>
-                <input type="text" name="" id="affiliations" placeholder="Affiliations">
                 <label for="drink">Favorite Drink</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="lastName" placeholder="lastName">
+                <input type="text" name="" id="affiliations" placeholder="Affiliations">
                 <input type="text" name="" id="drink">
             </div>
-
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <label for="power">Special Power</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="email">
+                <input type="text" name="" id="power">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <label for="ocupacion">Ocupation</label>
+                <label for="arma">Weapon of choice</label>
+            </div>
+            <div class="form-group">
+                <select name="country[]" id="country">
+                    <option value="mexico">Mexico</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="japon">Japon</option>
+                    <option value="china">China</option>
+                </select>
+                <select name="ocupacion[]" id="ocupacion">
+                    <option value="estudiante">Student</option>
+                    <option value="trabajador">Worker</option>
+                    <option value="desempleado">Unemployed</option>
+                    <option value="jubilado">Retired</option>
+                    <option value="empresario">Businessman</option>
+                </select>
+                <input type="text" name="" id="arma">
+            </div>
+            <div>
+                <label for="biografia">Biography</label>
+                <label for="cat">Cat's name</label>
+                <label for="comentarios">Comments</label>
+            </div>
+            <div class="form-group">
+                <textarea name="biografia" id="biografia" cols="20" rows="5"></textarea>
+                <input type="text" name="" id="cat">
+                <textarea name="comentarios" id="comentarios" cols="20" rows="5"></textarea>
+            </div>
         </form>
     </div>
 </body>

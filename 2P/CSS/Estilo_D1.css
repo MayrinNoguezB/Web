@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #007bff;
+    background-color: #00A5DB;
     color: white;
     padding: 20px;
 }
@@ -17,10 +17,28 @@ body {
     flex-basis: 100%;
     margin-top: 5px;
 }
+.form-group label[for="firstName"]{
+    text-align: left;
+}
+.form-group label[for="phoneNumber"]{
+    text-align: center;
+}
+.form-group label[for="talent"]{
+    text-align: right;
+}
 .form-group input{
     flex-basis: 100%;
     padding: 5px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid white; 
     border-radius: 3px;
+    background-color: #00A5DB;
+}
+.form-group textarea{
+    background-color: #00A5DB;
+    border: 1px solid white;
+}
+.form-group select{
+    background-color: #00A5DB;
+    border: 1px solid white;
 }
