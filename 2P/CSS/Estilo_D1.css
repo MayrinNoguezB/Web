@@ -3,30 +3,20 @@ body {
     background-color: #00A5DB;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
-.container{
+.Container{
     max-width: 800px;
     margin: 0 auto;
 }
-.form.group{
+.Contenedor{
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.form-group label{
-    flex-basis: 100%;
-    margin-top: 5px;
-}
-.form-group label[for="firstName"]{
-    text-align: left;
-}
-.form-group label[for="phoneNumber"]{
-    text-align: center;
-}
-.form-group label[for="talent"]{
-    text-align: right;
-}
-.form-group input{
+.Contenedor input{
     flex-basis: 100%;
     padding: 5px;
     margin-top: 5px;
@@ -34,11 +24,29 @@ body {
     border-radius: 3px;
     background-color: #00A5DB;
 }
-.form-group textarea{
+.Contenedor textarea{
     background-color: #00A5DB;
     border: 1px solid white;
 }
-.form-group select{
+.Contenedor select{
     background-color: #00A5DB;
     border: 1px solid white;
+}   
+.Contenedor row1{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}   
+.Contenedor row2{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Contenedor row3{
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }

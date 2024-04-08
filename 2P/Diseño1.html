@@ -8,78 +8,99 @@
 
 </head>
 <body>
-    <div class="Contenedor">
-        <div class="title">
-            <h2>Responsive Multi-Column Form</h2>
-        </div>
-        <form>
-            <div class="form-group">
-                <label for="firstName">First Name</label>
-                <label for="phoneNuber">Phone Number</label>
-                <label for="talent">Type of talent</label>
-            </div>
-            <div class="form-group">
-                <input type="text" id="firstName" name="" placeholder="Nombre">
-                <input type="number" name="" id="Number" placeholder="Number">
-                <select name="talent[]" id="talent">
-                    <option value="musical">Musical</option>
-                    <option value="deportivo">Sports</option>
-                    <option value="creativo">Creative</option>
-                    <option value="artistico">Artistic</option>
-                    <option value="escritor">Writer</option>
+    <div class="container">
+      <header>Responsive Multi-Column Form</header>
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <div class="fields">
+              <div class="input-field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" required />
+              </div>
+              <div class="input-field">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" required />
+              </div>
+              <div class="input-field">
+                <label for="talent">Type of Talent</label>
+                <select id="talent">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
                 </select>
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name</label>
+              </div>
+              <div class="input-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" required />
+              </div>
+              <div class="input-field">
                 <label for="affiliations">Affiliations</label>
+                <textarea
+                  id="affiliations"
+                  placeholder="Enter your affiliations"
+                  required
+                ></textarea>
+              </div>
+              <div class="input-field">
                 <label for="drink">Favorite Drink</label>
-            </div>
-            <div class="form-group">
-                <input type="text" name="" id="lastName" placeholder="lastName">
-                <input type="text" name="" id="affiliations" placeholder="Affiliations">
-                <input type="text" name="" id="drink">
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address</label>
+                <input type="text" id="drink" required />
+              </div>
+              <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="input-field">
                 <label for="power">Special Power</label>
-            </div>
-            <div class="form-group">
-                <input type="text" name="" id="email">
-                <input type="text" name="" id="power">
-            </div>
-            <div>
+                <input type="text" id="power" required />
+              </div>
+              <div class="input-field">
                 <label for="country">Country</label>
-                <label for="ocupacion">Ocupation</label>
-                <label for="arma">Weapon of choice</label>
-            </div>
-            <div class="form-group">
-                <select name="country[]" id="country">
-                    <option value="mexico">Mexico</option>
-                    <option value="usa">USA</option>
-                    <option value="canada">Canada</option>
-                    <option value="japon">Japon</option>
-                    <option value="china">China</option>
+                <select id="country">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
                 </select>
-                <select name="ocupacion[]" id="ocupacion">
-                    <option value="estudiante">Student</option>
-                    <option value="trabajador">Worker</option>
-                    <option value="desempleado">Unemployed</option>
-                    <option value="jubilado">Retired</option>
-                    <option value="empresario">Businessman</option>
+              </div>
+              <div class="input-field">
+                <label for="occupation">Occupation</label>
+                <select id="occupation">
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+                  <option value="option3">Option 3</option>
                 </select>
-                <input type="text" name="" id="arma">
+              </div>
+              <div class="input-field">
+                <label for="weapon">Weapon of Choice</label>
+                <input type="text" id="weapon" required />
+              </div>
+              <div class="input-field">
+                <label for="biography">Biography</label>
+                <textarea
+                  id="biography"
+                  placeholder="Enter your biography"
+                  required
+                ></textarea>
+              </div>
+              <div class="input-field">
+                <label for="cat-name">Cat's Name</label>
+                <input type="text" id="cat-name" required />
+              </div>
+              <div class="input-field">
+                <label for="gadget">Favorite Gadget</label>
+                <input type="text" id="gadget" required />
+              </div>
+              <div class="input-field">
+                   <label for="comments">Comments</label>
+                 <textarea
+                  id="comments"
+                  placeholder="Enter your comments"
+                  required></textarea>
+              </div>
             </div>
-            <div>
-                <label for="biografia">Biography</label>
-                <label for="cat">Cat's name</label>
-                <label for="comentarios">Comments</label>
-            </div>
-            <div class="form-group">
-                <textarea name="biografia" id="biografia" cols="20" rows="5"></textarea>
-                <input type="text" name="" id="cat">
-                <textarea name="comentarios" id="comentarios" cols="20" rows="5"></textarea>
-            </div>
-        </form>
+          </div>
+        </div>
+      </form>
     </div>
 </body>
 </html>
